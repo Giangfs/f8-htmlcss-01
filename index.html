@@ -11,19 +11,20 @@
   </head>
   <body>
     <main>
-      <!-- Header -->
-      <header class="header">
+      <header class="fix-header">
         <div class="content">
           <nav class="navbar">
             <!-- Logo -->
-            <img src="./assets/img/logo.svg" alt="Besnik." />
+            <a href="#">
+              <img src="./assets/img/logo.svg" alt="Besnik." />
+            </a>
             <!-- Navigation -->
             <ul>
-              <li><a href="#!">Home</a></li>
-              <li><a href="#!">Features</a></li>
-              <li><a href="#!">Services</a></li>
-              <li><a href="#!">Resources</a></li>
-              <li><a href="#!">Contact</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#resources">Resources</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
 
             <!-- Action -->
@@ -32,6 +33,11 @@
               <a href="#!" class="btn action-btn">Sign up</a>
             </div>
           </nav>
+        </div>
+      </header>
+      <!-- Hero -->
+      <div class="hero-wrap">
+        <div class="content">
           <div class="hero">
             <div class="info">
               <p class="sub-title">Welcome to Besnik Agency</p>
@@ -50,7 +56,7 @@
             />
           </div>
         </div>
-      </header>
+      </div>
 
       <!-- CLients -->
       <div class="clients">
@@ -73,17 +79,31 @@
             <p class="desc">5 Star Ratings (2k+ Review)</p>
           </div>
           <div class="images">
-            <img src="./assets/img/client-1.svg" alt="Me Undies" />
-            <img src="./assets/img/client-2.svg" alt="Slack" />
-            <img src="./assets/img/client-3.svg" alt="amazon" class="amazon" />
-            <img src="./assets/img/client-4.svg" alt="woo commerce" />
-            <img src="./assets/img/client-5.svg" alt="site point" />
+            <a href="#!">
+              <img src="./assets/img/client-1.svg" alt="Me Undies" />
+            </a>
+            <a href="#!">
+              <img src="./assets/img/client-2.svg" alt="Slack" />
+            </a>
+            <a href="#!">
+              <img
+                src="./assets/img/client-3.svg"
+                alt="amazon"
+                class="amazon"
+              />
+            </a>
+            <a href="#!">
+              <img src="./assets/img/client-4.svg" alt="woo commerce" />
+            </a>
+            <a href="#!">
+              <img src="./assets/img/client-5.svg" alt="site point" />
+            </a>
           </div>
         </div>
       </div>
 
       <!-- Guides -->
-      <div class="guides">
+      <div id="services" class="guides">
         <div class="content">
           <h2 class="sub-title">How its works?</h2>
           <p class="desc">
@@ -151,7 +171,7 @@
       </div>
 
       <!-- Featured -->
-      <div class="featured">
+      <div id="features" class="featured">
         <div class="content">
           <header>
             <h2 class="sub-title">Featured Properties</h2>
@@ -262,7 +282,7 @@
       </div>
 
       <!-- Stats -->
-      <div class="stats">
+      <div id="resources" class="stats">
         <div class="content">
           <div class="row">
             <div class="img-block">
@@ -442,7 +462,7 @@
       </div>
 
       <!-- Footer -->
-      <footer class="footer">
+      <footer id="contact" class="footer">
         <div class="content">
           <div class="row row-top">
             <!-- Product Column -->
@@ -521,7 +541,6 @@
           </div>
         </div>
       </footer>
-
     </main>
   </body>
 </html>
